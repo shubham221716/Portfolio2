@@ -1300,16 +1300,26 @@ Generic layout (demo looks)
 
 
 @media screen and (max-width: 768px) {
-  .sticky-social {
-    display: none !important;
-  }
+  
 
   #myBtn {
     display: none !important;
   }
 }
 
-
+@media screen and (max-width: 1050px) {
+  .sticky-social {
+    display: none !important;
+  }
+}
+.img_card{
+  padding-left: 70px;
+}
+@media screen and (max-width: 465px){
+  .img_card{
+    padding-left: 30px !important;
+  }
+}
 
 
 
