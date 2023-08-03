@@ -428,33 +428,18 @@
 
             <div class="contact__container bd-grid">
                 <form name="contact" method="POST" netlify>
-                    <p>
-                      <label>Your Name: <input type="text" name="name" /></label>
-                    </p>
-                    <p>
-                      <label>Your Email: <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                      <label>Your Role: <select name="role[]" multiple>
-                        <option value="leader">Leader</option>
-                        <option value="follower">Follower</option>
-                      </select></label>
-                    </p>
-                    <p>
-                      <label>Message: <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                      <button type="submit">Send</button>
-                    </p>
+                    <input type="text" placeholder="Your Name..." class="contact__input">
+                    <input type="mail" placeholder="Your Email..." class="contact__input">
+                    <textarea name="" id="" cols="0" placeholder="Write your Query..." rows="10"
+                        class="contact__input"></textarea> 
+                      <button type="submit" class="contact__button button">Submit</button>
+                
                   </form>
                   
 
                 
                 <!-- <form action="" onsubmit="sendEmail();reset();return false;" class="contact__form">
-                    <input type="text" placeholder="Your Name..." class="contact__input">
-                    <input type="mail" placeholder="Your Email..." class="contact__input">
-                    <textarea name="" id="" cols="0" placeholder="Write your Query..." rows="10"
-                        class="contact__input"></textarea> -->
+                   -->
                     <!-- <input type="button" value="Submit" class="contact__button button"> -->
                     <!-- <button type="submit" class="contact__button button">Submit </button>
                 </form> -->
