@@ -334,7 +334,9 @@ img {
   border-radius: .5rem;
 }
 
-
+.read-more{
+  color:#0085C3;
+}
 
 /* ===== Qualification =====*/
 
@@ -1346,3 +1348,5 @@ Generic layout (demo looks)
   font-size: 18px;
   /* Increase font size */
 }
+
+

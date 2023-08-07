@@ -58,7 +58,7 @@
                     <article class="card">
                         <img class="card__background" src="aa.jpg"
                             alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
-                            width="1920" height="2193" />
+                            width="1920" height="2193" loading="lazy"/>
                         <div class="card__content | flow">
                             <div class="card__content--container | flow">
                                 <h2 class="card__title">Shubham</h2>
@@ -86,6 +86,16 @@
                     I am from Ballia,I have completed my intermediate education from Jawahar Navodaya Vidyalya .
                     Currently, I am persuing B.Tech from KIET Group of Institutions in Computer Science & Engineering
                     branch.</p>
+                <p class="about__text">My journey as a web developer began with a curiosity for coding and an eye for
+                    design. Over the
+                    years, I've honed my skills in front-end and back-end development, creating responsive and visually
+                    appealing websites that seamlessly blend form and function. I'm proficient in languages such as
+                    HTML, CSS, JavaScript, and have experience working with popular frameworks like Angular.
+                </p>
+                <p class="about__text">I'm excited about the opportunities that lie ahead in both my academic journey
+                    and my web development
+                    career. I look forward to contributing my skills, creativity, and strong work ethic to projects that
+                    push boundaries and deliver exceptional results.</p>
 
             </div>
         </section>
@@ -349,14 +359,13 @@
             <article>
                 <div class="article-wrapper">
                     <figure>
-                        <img src="pro1.jpg" alt="" />
+                        <img src="pro1.jpg" alt="ecommerce " loading="lazy" />
                     </figure>
                     <div class="article-body">
                         <h2>E-commerce</h2>
                         <p>
-                            Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet,
-                            congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim
-                            imperdiet egestas.
+                            Welcome to our captivating e-commerce platform, where you'll discover a stunning array of
+                            furniture pieces designed to elevate your living spaces.
                         </p>
                         <a href="https://furniture-dekho.netlify.app/" target="_blank" class="read-more">
                             Read more <span class="sr-only">about this is some title</span>
@@ -374,14 +383,13 @@
 
                 <div class="article-wrapper">
                     <figure>
-                        <img src="pro2.jpg" alt="" />
+                        <img src="pro2.jpg" alt="" loading="lazy" />
                     </figure>
                     <div class="article-body">
                         <h2>Automatic Weed Detection</h2>
                         <p>
-                            Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet,
-                            congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim
-                            imperdiet egestas.
+                            Automatic weed detection is a cutting-edge technological solution aimed at revolutionizing
+                            the agriculture and landscaping industries.
                         </p>
                         <a href="pro2.html" target="_blank" class="read-more">
                             Read more <span class="sr-only">about this is some title</span>
@@ -399,12 +407,13 @@
 
                 <div class="article-wrapper">
                     <figure>
-                        <img src="pro3.jpg" alt="" />
+                        <img src="pro3.jpg" alt=""  loading="lazy" />
                     </figure>
                     <div class="article-body">
                         <h2>Aninamted Calculator</h2>
                         <p>
-                           This is just a calculator which includes animated elements to enhance user experience and provide visual feedback.
+                            This is just a calculator which includes animated elements to enhance user experience and
+                            provide visual feedback.
                         </p>
                         <a href="https://45calculator.netlify.app/" target="_blank" class="read-more">
                             Read more <span class="sr-only">about this is some title</span>
@@ -428,20 +437,20 @@
 
             <div class="contact__container bd-grid">
                 <form name="contact" method="POST" netlify>
-                    <input type="text" placeholder="Your Name..." class="contact__input"  name="name">
+                    <input type="text" placeholder="Your Name..." class="contact__input" name="name">
                     <input type="mail" placeholder="Your Email..." class="contact__input" name="email">
-                    <textarea  id="" cols="0" placeholder="Write your Query..." name="message" rows="10"
-                        class="contact__input"></textarea> 
-                      <button type="submit" class="contact__button button">Submit</button>
-                
-                  </form>
-                  
+                    <textarea id="" cols="0" placeholder="Write your Query..." name="message" rows="10"
+                        class="contact__input"></textarea>
+                    <button type="submit" class="contact__button button">Submit</button>
 
-                
+                </form>
+
+
+
                 <!-- <form action="" onsubmit="sendEmail();reset();return false;" class="contact__form">
                    -->
-                    <!-- <input type="button" value="Submit" class="contact__button button"> -->
-                    <!-- <button type="submit" class="contact__button button">Submit </button>
+                <!-- <input type="button" value="Submit" class="contact__button button"> -->
+                <!-- <button type="submit" class="contact__button button">Submit </button>
                 </form> -->
             </div>
         </section>
@@ -537,25 +546,7 @@
     <!--===== MAIN JS =====-->
     <script src="main.js"></script>
 
-    <script src="https://smtpjs.com/v3/smtp.js">
 
-    </script>
-
-    <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com",
-                Username: "shubham45unofficial@gmail.com",
-                Password: "Shubham@1103",
-                To: 'skg2002007@gmail.com',
-                From: document.getElementById("email").value,
-                Subject: "New Querey",
-                Body: "And this is the body"
-            }).then(
-                message => alert(message)
-            );
-        }
-    </script>
 </body>
 
 </html>
